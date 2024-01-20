@@ -12,4 +12,8 @@ public class Lamp {
         this.battery = battery;
         this.globRating = globRating;
     }
+
+    public void turnOn(){
+        System.out.println("Lamp is being turned on.");
+    }
 }
