@@ -12,4 +12,16 @@ public class Carpet {
         this.height = height;
         this.color = color;
     }
+
+    public int getWidth() {
+        return width;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public PaintColor getColor() {
+        return color;
+    }
 }
