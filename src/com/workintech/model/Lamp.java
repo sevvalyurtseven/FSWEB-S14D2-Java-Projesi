@@ -6,4 +6,10 @@ public class Lamp {
     private LampType style;
     private boolean battery;
     private int globRating;
+
+    public Lamp(LampType style, boolean battery, int globRating) {
+        this.style = style;
+        this.battery = battery;
+        this.globRating = globRating;
+    }
 }
