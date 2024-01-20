@@ -14,6 +14,18 @@ public class Bedroom extends Room{
         this.bed = bed;
         this.wardrobe = wardrobe;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public Bed getBed() {
+        return bed;
+    }
+
+    public Wardrobe getWardrobe() {
+        return wardrobe;
+    }
 }
 
 
