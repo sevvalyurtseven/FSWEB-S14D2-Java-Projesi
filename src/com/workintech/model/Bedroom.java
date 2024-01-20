@@ -26,6 +26,15 @@ public class Bedroom extends Room{
     public Wardrobe getWardrobe() {
         return wardrobe;
     }
+
+    @Override
+    public String toString() {
+        return "Bedroom{" +
+                "name='" + name + '\'' +
+                ", bed=" + bed +
+                ", wardrobe=" + wardrobe +
+                '}';
+    }
 }
 
 
