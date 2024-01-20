@@ -22,4 +22,8 @@ public class Wardrobe {
     public double getWeight() {
         return weight;
     }
+
+    public void add(){
+        System.out.println("Wardrobe added into Bedroom.");
+    }
 }
