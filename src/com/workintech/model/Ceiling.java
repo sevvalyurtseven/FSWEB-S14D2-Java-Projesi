@@ -22,4 +22,12 @@ public class Ceiling {
     public void create(){
         System.out.println("Height: " + height + " - PaintedColor: " + paintedColor);
     }
+
+    @Override
+    public String toString() {
+        return "Ceiling{" +
+                "height=" + height +
+                ", paintedColor=" + paintedColor +
+                '}';
+    }
 }
