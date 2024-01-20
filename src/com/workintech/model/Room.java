@@ -46,4 +46,17 @@ public class Room {
     public Carpet getCarpet() {
         return carpet;
     }
+
+    @Override
+    public String toString() {
+        return "Room{" +
+                "wall1=" + wall1 +
+                ", wall2=" + wall2 +
+                ", wall3=" + wall3 +
+                ", wall4=" + wall4 +
+                ", ceiling=" + ceiling +
+                ", lamp=" + lamp +
+                ", carpet=" + carpet +
+                '}';
+    }
 }
