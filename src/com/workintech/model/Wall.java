@@ -14,7 +14,7 @@ public class Wall {
     }
 
     public void create(){
-        System.out.println("Direction of Wall: " + direction);
+        System.out.println("Wall has been created on: " + direction);
     }
 
     @Override
