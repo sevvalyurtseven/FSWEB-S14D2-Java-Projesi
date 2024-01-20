@@ -15,6 +15,10 @@ public class Bed {
         this.quilts = quilts;
     }
 
+    public void make(){
+        System.out.println("The bed is being made.");
+    }
+
     public int getPillows() {
         return pillows;
     }
