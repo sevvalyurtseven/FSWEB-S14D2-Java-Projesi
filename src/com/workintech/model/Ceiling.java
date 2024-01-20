@@ -18,4 +18,8 @@ public class Ceiling {
     public PaintColor getPaintedColor() {
         return paintedColor;
     }
+
+    public void create(){
+        System.out.println("Height: " + height + " - PaintedColor: " + paintedColor);
+    }
 }
