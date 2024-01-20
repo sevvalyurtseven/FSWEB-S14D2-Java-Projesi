@@ -24,4 +24,8 @@ public class Carpet {
     public PaintColor getColor() {
         return color;
     }
+
+    public void lying(){
+        System.out.println("Carpet is lying on Bedroom floor.");
+    }
 }
