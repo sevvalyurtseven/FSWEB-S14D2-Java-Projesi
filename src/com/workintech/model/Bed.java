@@ -6,4 +6,12 @@ public class Bed {
     private int height;
     private int sheets;
     private int quilt;
+
+    public Bed(String style, int pillows, int height, int sheets, int quilt) {
+        this.style = style;
+        this.pillows = pillows;
+        this.height = height;
+        this.sheets = sheets;
+        this.quilt = quilt;
+    }
 }
