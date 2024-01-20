@@ -13,4 +13,8 @@ public class Wall {
         return direction;
     }
 
+    public void create(){
+        System.out.println("Direction of Wall: " + direction);
+    }
+
 }
