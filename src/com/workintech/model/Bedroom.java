@@ -1,14 +1,14 @@
 package com.workintech.model;
 
 public class Bedroom extends Room{
-    private String name;
+
     private Bed bed;
     private Wardrobe wardrobe;
-
+    private String name;
 
     public Bedroom(Wall wall1, Wall wall2, Wall wall3, Wall wall4,
-                   Ceiling ceiling, Lamp lamp, String name, Carpet carpet,
-                   Bed bed, Wardrobe wardrobe) {
+                   Ceiling ceiling, Lamp lamp,  Carpet carpet,
+                   Bed bed, Wardrobe wardrobe, String name) {
         super(wall1, wall2, wall3, wall4, ceiling, lamp, carpet);
         this.name = name;
         this.bed = bed;
@@ -25,6 +25,17 @@ public class Bedroom extends Room{
 
     public Wardrobe getWardrobe() {
         return wardrobe;
+    }
+
+    public void createBedroom(){
+        getWall1().create();
+        getWall2().create();
+        getWall3().create();
+        getWall4().create();
+        bed.make();
+        getCarpet().lying();
+        wardrobe.add();
+        getLamp().turnOn();
     }
 
     @Override
